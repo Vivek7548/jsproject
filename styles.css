@@ -1,23 +1,59 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form {
-    margin-bottom: 20px;
-}
-
-.item {
-    margin-bottom: 10px;
-}
-
-body {
-    background-color: green;
-}
+    /* Bootstrap styles */
+    
+    @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+    body {
+        font-family: Arial, sans-serif;
+        background-color: red;
+        padding-top: 20px;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: greenyellow;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+    
+    .h1 {
+        color: blue;
+    }
+    
+    form {
+        margin-bottom: 20px;
+    }
+    
+    .list-group-item {
+        margin-bottom: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .list-group-item button {
+        margin-right: 10px;
+    }
+    
+    .list-group-item button:last-child {
+        margin-right: 0;
+    }
+    /* Additional custom styles */
+    
+    button {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+        color: white;
+        background-color: blueviolet;
+    }
